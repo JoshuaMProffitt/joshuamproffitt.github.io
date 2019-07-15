@@ -9,6 +9,7 @@ body{
     background-size: 100% 100%;
     -o-background-size: 100% 100%;
     background: black;
+    text-align: left;
 }
 .Background-1 {
     background: rgba(15, 15, 15, 0.95);
