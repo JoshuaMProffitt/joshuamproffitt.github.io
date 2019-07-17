@@ -38,7 +38,7 @@ body{
     text-decoration: none;
     background-color: rgba(255, 255, 255, .5);
     text-align: center;
-    margin: 0em .5em 0em .5em;
+    margin: 0em 0em 0em 0em;
 }
     .HomeButton:hover {
         position: relative;
@@ -54,36 +54,6 @@ body{
         text-decoration: none;
         background-color: rgba(82, 86, 146,.5);
     }
-    .HomeButton3 {
-      position: relative;
-      z-index: 3;
-      color: rgb(82, 86, 146);
-      font-size: 29.5px;
-      border-color: rgb(82, 86, 146);
-      border-style: solid;
-      border-width: 2px;
-      padding: .8% 0%;
-      text-transform: uppercase;
-      transition: all 0.2s linear;
-      text-decoration: none;
-      background-color: white;
-      text-align: center;
-      margin: 0em 1.5em 0em 1.5em;
-  }
-      .HomeButton3:hover {
-          position: relative;
-          z-index: 3;
-          color: white;
-          font-size: 29.5px;
-          border-color: white;
-          border-style: solid;
-          border-width: 2px;
-          padding: .8% 0%;
-          text-transform: uppercase;
-          transition: all 0.2s linear;
-          text-decoration: none;
-          background-color: rgb(82, 86, 146);
-      }
     .HomeButtonsLayout{
         padding-bottom: 1px;
     }
@@ -107,7 +77,9 @@ body{
     /* Projects */
     
   #ProjectPicture img{
-    width: 100%;
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
   }
 
   section div.panel{
@@ -250,4 +222,9 @@ text-align: center;
       text-transform: uppercase;
       transition: all 0.2s linear;
       text-decoration: none;
+  }
+  @media (max-width: 911px){
+    #ProjectPicture{
+      width: 200px;
+    }
   }
