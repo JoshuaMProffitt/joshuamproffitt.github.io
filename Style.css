@@ -93,7 +93,7 @@ body{
     border-radius: 0.6em;
    }
    section div.panel:hover{
-    background-color: rgb(82, 86, 146);
+    background-color: rgba(82, 86, 146, .5);
     color: white;
     border: rgb(255, 255, 255) solid 5px;
    }
