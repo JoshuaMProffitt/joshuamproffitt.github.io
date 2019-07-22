@@ -21,7 +21,7 @@ body{
     background-image: url("Assets/London.jpg");
     z-index: 1;
     background-size: 100%;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
 }
 /* buttons */
 .HomeButton {
@@ -82,8 +82,15 @@ body{
     object-fit: cover;
   }
 
+  @media (min-width: 50%){
+    #ProjectPictur img{
+      width: 100px;
+    }
+  } 
+
   section div.panel{
     font-size: 25px;
+    color: rgb(255, 255, 255);
     float: left;
     position: relative;
     margin: 1em 2.45em 0em 2.45em;
@@ -222,9 +229,4 @@ text-align: center;
       text-transform: uppercase;
       transition: all 0.2s linear;
       text-decoration: none;
-  }
-  @media (max-width: 911px){
-    #ProjectPicture{
-      width: 200px;
-    }
   }
