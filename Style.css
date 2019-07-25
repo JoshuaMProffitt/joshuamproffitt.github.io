@@ -77,8 +77,8 @@ body{
     /* Projects */
     
   #ProjectPicture img{
-    width: 250px;
-    height: 150px;
+    width: 22vw;
+    height: 11vw;
     object-fit: cover;
   }
 
