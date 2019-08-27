@@ -1,3 +1,20 @@
+/* text */
+h1 {
+  font-family: Nunito, bold;
+  font-size: 40px;
+}
+h2 {
+  font-family: Nunito;
+  font-size: 18px;
+}
+h3 {
+  font-family: Nunito, bold;
+  font-size: 27px;
+}
+h4 {
+  font-family: Nunito;
+  font-size: 18px;
+}
 /* background */
 body{
   color: white;
@@ -229,4 +246,7 @@ text-align: center;
       text-transform: uppercase;
       transition: all 0.2s linear;
       text-decoration: none;
+      display: inline-block;
+      margin-bottom: 2px;
+      font-size: 13px;
   }
